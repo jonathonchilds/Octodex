@@ -21,6 +21,8 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: #24292e;
+  margin: 0;
+  box-sizing: border-box;
 }
 .bg-gray-light {
   background-color: #fafbfc !important;
@@ -30,6 +32,15 @@ header {
   display: block;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  background-clip: padding-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
+}
+
 .mb-6 {
   margin-bottom: 40px !important;
 }
@@ -37,6 +48,8 @@ header {
 .container {
   width: auto;
   max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .px-4 {
@@ -51,21 +64,13 @@ header {
   align-items: center !important;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 .text-gray {
   color: #586069 !important;
 }
-.header {
-  position: sticky;
-  top: 0;
-  background-color: rgba(255, 255, 255, 0.75);
-  background-clip: padding-box;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
 #app {
