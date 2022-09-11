@@ -68,8 +68,20 @@ header {
   color: #586069 !important;
 }
 
+.text-gray-dark {
+  color: #24292e !important;
+}
+
 .octodex-item {
   font-weight: 500;
+  font-family: 'Alliance No.1';
+  font-feature-settings: 'ss02' on, 'ss01' on;
+  display: flex !important;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  margin-right: 24px !important;
 }
 
 h1 {
