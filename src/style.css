@@ -68,6 +68,10 @@ header {
   color: #586069 !important;
 }
 
+.octodex-item {
+  font-weight: 500;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
